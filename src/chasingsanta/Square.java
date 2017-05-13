@@ -6,7 +6,6 @@
 package chasingsanta;
 
 import java.io.Serializable;
-
 /**
  *
  * @author BRudzki

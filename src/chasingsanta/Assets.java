@@ -24,9 +24,9 @@ public class Assets {
     public static void load(){
         rand = new Random();
         try {
-            santa = ImageIO.read(new File("textures/santa.jpg"));
-            child = ImageIO.read(new File("textures/child.jpg"));
-            gift = ImageIO.read(new File("textures/gift.jpg"));
+            santa = ImageIO.read(new File("../textures/santa.jpg"));
+            child = ImageIO.read(new File("../textures/child.jpg"));
+            gift = ImageIO.read(new File("../textures/gift.jpg"));
         } catch (IOException ex) {
             Logger.getLogger(Assets.class.getName()).log(Level.SEVERE, null, ex);
         }
